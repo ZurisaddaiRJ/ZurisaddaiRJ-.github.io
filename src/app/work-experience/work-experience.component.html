@@ -1,1 +1,35 @@
-<p>work-experience works!</p>
+<FONT FACE="Cursive" SIZE=4 color="black"><b><i> <img src="../assets/exp.png" align="center"> EXPERIENCIA LABORAL </i></b>
+</FONT>
+
+<table border="0">
+    <ul *ngFor="let work of workExperience">
+        <li>
+            <tr>
+                <td><FONT FACE="verdana" SIZE=2.5 color="white">{{ work.fecha }} </FONT></td>
+                <td><FONT FACE="verdana" SIZE=2.5 color="white"><b>{{ work.ubicacion }} </b></FONT> </td>
+            </tr>
+            <tr>
+                <td><FONT FACE="verdana" SIZE=2.5 color="black">{{ work.puesto }} </FONT></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td><FONT FACE="verdana" SIZE=2.5 color="black">{{ work.empresa }} </FONT></td>
+                <td> </td>
+            </tr>
+            <tr>
+                <td><FONT FACE="verdana" SIZE=2.5 color="black"><b>Logros</b> </FONT> </td>
+            </tr>
+
+            <ul *ngFor="let logro of work.logros">
+                <li>
+                    <tr>
+                        <td><FONT FACE="verdana" SIZE=2.5 color="black">{{ logro.descripcion }}</FONT></td>
+                    </tr>
+                </li>
+
+            </ul>
+        </li>
+
+    </ul>
+
+</table>
