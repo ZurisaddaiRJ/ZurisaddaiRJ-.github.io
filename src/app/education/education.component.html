@@ -1,0 +1,23 @@
+<FONT FACE="Cursive" SIZE=4 color="white"><b><i> <img src="../assets/educacion.png" align="center"> EDUCACIÓN </i></b>
+</FONT>
+<table>
+    <ul *ngFor="let educ of education">
+        <tr>
+                <FONT FACE="verdana" SIZE=2.5 color="white"> °{{educ.fecha}}</FONT>
+        <tr>
+            <td>
+                <FONT FACE="verdana" SIZE=2.5 color="white"><b>{{educ.etapa}} </b></FONT>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <FONT FACE="verdana" SIZE=2 color="white">{{ educ.escuela}}</FONT>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <FONT FACE="verdana" SIZE=2 color="white"><b> | {{educ.ubicacion}}</b></FONT>
+            </td>
+        </tr>
+    </ul>
+</table>
