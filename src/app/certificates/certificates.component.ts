@@ -36,12 +36,32 @@ export class CertificatesComponent implements OnInit {
       descripcion: "Realización exitosa de un proyecto utilizando la domótica"
     };
 
+    
+    let cert6 = {
+      titulo: "Python",
+      descripcion: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/python"
+    };
+
+    let cert7 = {
+      titulo: "Pandas",
+      descripcion: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/pandas"
+    };
+
+    let cert8 = {
+      titulo: "Intro to Machine Learning",
+      descripcion: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/intro-to-machine-learning"
+    };
+
+
 
     this.certificates.push(cert1);
     this.certificates.push(cert2);
     this.certificates.push(cert3);
     this.certificates.push(cert4);
     this.certificates.push(cert5);
+    this.certificates.push(cert6);
+    this.certificates.push(cert7);
+    this.certificates.push(cert8);
 
 
   }
