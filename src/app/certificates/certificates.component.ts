@@ -39,17 +39,17 @@ export class CertificatesComponent implements OnInit {
     
     let cert6 = {
       titulo: "Python",
-      descripcion: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/python"
+      link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/python"
     };
 
     let cert7 = {
       titulo: "Pandas",
-      descripcion: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/pandas"
+      link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/pandas"
     };
 
     let cert8 = {
       titulo: "Intro to Machine Learning",
-      descripcion: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/intro-to-machine-learning"
+      link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/intro-to-machine-learning"
     };
 
 
