@@ -38,22 +38,26 @@ export class CertificatesComponent implements OnInit {
 
     let cert6 = {
       titulo: "Python",
-      descripcion: "Certificado por la realizaciòn del curso PYTHON: https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/python"
+      descripcion: "Certificado por la realizaciòn del curso PYTHON: ",
+      link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/python"
     };
 
     let cert7 = {
       titulo: "Pandas",
-      descripcion: "Certificado por la realizaciòn del curso PANDAS: https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/pandas"
+      descripcion: "Certificado por la realizaciòn del curso PANDAS: ",
+      link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/pandas"
     };
 
     let cert8 = {
       titulo: "Intro to Machine Learning",
-      descripcion: "Certificado por la realizaciòn del curso INTRO TO MACHINE LEARNING: https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/intro-to-machine-learning"
+      descripcion: "Certificado por la realizaciòn del curso INTRO TO MACHINE LEARNING: ",
+      link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/intro-to-machine-learning"
     };
 
     let cert9 = {
       titulo: "Intro to Deep Learning",
-      descripcion: "Certificado por la realizaciòn del curso INTRO TO DEEP LEARNING: https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/intro-to-deep-learning"
+      descripcion: "Certificado por la realizaciòn del curso INTRO TO DEEP LEARNING: ",
+      link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/intro-to-deep-learning"
     };
 
 
