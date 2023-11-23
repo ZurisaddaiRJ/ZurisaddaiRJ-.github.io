@@ -36,10 +36,13 @@ export class CertificatesComponent implements OnInit {
       descripcion: "Realización exitosa de un proyecto utilizando la domótica"
     };
 
+
     let cert6 = {
       titulo: "Python",
+
       descripcion: "Certificado por la realizaciòn del curso PYTHON: ",
       link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/python"
+
     };
 
     let cert7 = {
@@ -52,6 +55,7 @@ export class CertificatesComponent implements OnInit {
       titulo: "Intro to Machine Learning",
       descripcion: "Certificado por la realizaciòn del curso INTRO TO MACHINE LEARNING: ",
       link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/intro-to-machine-learning"
+
     };
 
     let cert9 = {
@@ -59,6 +63,7 @@ export class CertificatesComponent implements OnInit {
       descripcion: "Certificado por la realizaciòn del curso INTRO TO DEEP LEARNING: ",
       link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/intro-to-deep-learning"
     };
+
 
 
     this.certificates.push(cert1);
@@ -70,6 +75,7 @@ export class CertificatesComponent implements OnInit {
     this.certificates.push(cert7);
     this.certificates.push(cert8);
     this.certificates.push(cert9);
+
 
 
   }
