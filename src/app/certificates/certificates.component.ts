@@ -46,8 +46,7 @@ export class CertificatesComponent implements OnInit {
     };
 
     let cert7 = {
-      titulo: "Pandas",
-      descripcion: "Certificado por la realizaciòn del curso PANDAS: ",
+      titulo: "Certificado por la realizaciòn del curso PANDAS:",
       link: "https://www.kaggle.com/learn/certification/zurisaddaireyesjurez/pandas"
     };
 
